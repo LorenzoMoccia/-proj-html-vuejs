@@ -28,7 +28,7 @@ export default {
 </script>
 
 <template>
-  <h1>{{ title }}</h1>
+  <img src="">
 </template>
 
 <style scoped></style>
