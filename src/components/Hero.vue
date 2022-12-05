@@ -1,15 +1,15 @@
 <script>
-import AppHero from '../components/Hero.vue'
-
 export default {
-  components:{
-    Hero
-  },
+  data() {
+    return {
+      
+    }
+  }
 }
 </script>
 
 <template>
-  <Hero/>
+  <h1>{{ title }}</h1>
 </template>
 
 <style scoped></style>
