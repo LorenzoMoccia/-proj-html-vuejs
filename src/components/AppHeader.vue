@@ -28,7 +28,7 @@ export default {
 </script>
 
 <template>
-  <img src="">
+  <img src="../img/logo.png">
 </template>
 
 <style scoped></style>
