@@ -64,7 +64,7 @@ ul{
 }
 
 li{
-  margin-left: 100px;
+  margin-left: 100px !important;
   color: white;
 }
 </style>

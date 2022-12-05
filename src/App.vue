@@ -16,7 +16,5 @@ export default {
 </template>
 
 <style scoped>
-*{
-  margin: 0 !important;
-}
+
 </style>

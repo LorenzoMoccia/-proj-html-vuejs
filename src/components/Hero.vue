@@ -10,13 +10,22 @@ export default {
 
 <template>
     <div class="hero-container">
-        <h1>Tech Forum!</h1>
+        <div class="container">
+            <h1>Tech Forum!</h1>
+            <p>Discuss all the latest technology news and trends</p>
+            <button>GET AVADA NOW!</button>
+        </div>
     </div>
 </template>
 
 <style scoped>
 .hero-container{
     background: url('../img/home_slider_bg.jpg');
-    width: 200px;
+    width: 100%;
+    color: white;
 }
+
+
+
+
 </style>
