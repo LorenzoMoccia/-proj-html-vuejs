@@ -9,7 +9,14 @@ export default {
 </script>
 
 <template>
-  <h1>{{ title }}</h1>
+    <div class="hero-container">
+        <h1>Tech Forum!</h1>
+    </div>
 </template>
 
-<style scoped></style>
+<style scoped>
+.hero-container{
+    background: url('../img/home_slider_bg.jpg');
+    width: 200px;
+}
+</style>

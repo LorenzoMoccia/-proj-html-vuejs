@@ -1,5 +1,5 @@
 <script>
-import AppHero from '../components/Hero.vue'
+import Hero from './Hero.vue'
 
 export default {
   components:{

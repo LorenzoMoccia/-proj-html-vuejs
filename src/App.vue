@@ -1,18 +1,22 @@
 <script>
 import AppHeader from './components/AppHeader.vue'
+import AppMain from './components/AppMain.vue'
 
 export default {
   components: {
-    AppHeader
+    AppHeader,
+    AppMain
   }
 }
 </script>
 
 <template>
-  <div>
     <AppHeader/>
-  </div>
+    <AppMain/>
 </template>
 
 <style scoped>
+*{
+  margin: 0 !important;
+}
 </style>
