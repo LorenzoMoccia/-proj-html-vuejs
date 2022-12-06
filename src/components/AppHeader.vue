@@ -10,7 +10,6 @@ export default {
   <div class="header">
     <div class="logo-container">
       <img src="../img/logo.png">
-      <i class="fa-solid fa-house"></i>
     </div>
 
     <div class="list-container">
@@ -22,7 +21,7 @@ export default {
           <button>JOIN US</button>
         </li>
         <li>
-          <i class="fa-solid fa-folder-magnifying-glass"></i>
+          <i class="fa-solid fa-magnifying-glass"></i>
         </li>
       </ul>
     </div>

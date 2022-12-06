@@ -57,5 +57,6 @@ h4{
 hr{
   width: 50px;
   color: orange;
+  margin: auto;
 }
 </style>
