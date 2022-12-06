@@ -25,6 +25,7 @@ export default {
     <h1>All the latest news</h1>
     <hr>
 
+    <!--CARD CONTAINER-->
     <div class="card-container">
       <!--CARD-->
       <div class="card">
@@ -59,6 +60,18 @@ export default {
       </div>
       <!--/CARD-->
     </div>
+    <!--/CARD CONTAINER-->
+
+    <!--FEATURED ARTICLE CONTAINER-->
+    <div class="featured-article-container">
+      <div class="featured-article-text">
+        <strong>FEATURED ARTICLE</strong>
+        <h2>Cras malesuada et orci eget pharetra</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero iusto aut molestias quaerat temporibus repellendus labore qui tempore, laboriosam perferendis illum quod explicabo voluptatibus voluptates, est minima sed obcaecati expedita.</p>
+        <button>READ MORE ></button>
+      </div>
+    </div>
+    <!--/FEATURED ARTICLE CONTAINER-->
   </div>
 </template>
 
@@ -99,7 +112,6 @@ hr{
 
 strong{
   display: block;
-
 }
 
 img{
@@ -112,5 +124,28 @@ img{
 .card-text{
   width: 300px;
   text-align: left;
+}
+
+.featured-article-container{
+  background: url('../img/featured_article_1_bg.jpg');
+  width: 55%;
+  height: 500px;
+  margin: auto;
+  margin-top: 100px;
+}
+
+.featured-article-text{
+  color: white;
+  text-align: left;
+  padding-top: 200px;
+  padding-left: 50px;
+}
+
+button{
+  padding: 10px;
+  background-color: black;
+  border: none;
+  color: white;
+  margin-top: 40px;
 }
 </style>
