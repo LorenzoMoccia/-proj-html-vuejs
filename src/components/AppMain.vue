@@ -72,6 +72,45 @@ export default {
       </div>
     </div>
     <!--/FEATURED ARTICLE CONTAINER-->
+
+    <!--CARD CONTAINER-->
+    <div class="card-container">
+      <!--CARD-->
+      <div class="card">
+        <img src="../img/post_feat_img_22-320x202.jpg">
+        <strong>Morbi vitae dui euismod vulputate sollicitudin</strong>
+        <small>October 11th, 2015 | 2 Comments</small>
+        <div class="card-text">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate voluptatibus ipsa, doloremque, repellendus eveniet ipsum sapiente nam illum officia, voluptates deserunt et obcaecati ullam similique? Explicabo eos tenetur blanditiis maxime?</p>
+        </div>
+      </div>
+      <!--/CARD-->
+
+      <!--CARD-->
+      <div class="card">
+        <img src="../img/post_feat_img_21-320x202.jpg">
+        <strong>Morbi vitae dui euismod vulputate sollicitudin</strong>
+        <small>October 11th, 2015 | 2 Comments</small>
+        <div class="card-text">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate voluptatibus ipsa, doloremque, repellendus eveniet ipsum sapiente nam illum officia, voluptates deserunt et obcaecati ullam similique? Explicabo eos tenetur blanditiis maxime?</p>
+        </div>
+      </div>
+      <!--/CARD-->
+
+      <!--CARD-->
+      <div class="card">
+        <img src="../img/post_feat_img_20-320x202.jpg">
+        <strong>Morbi vitae dui euismod vulputate sollicitudin</strong>
+        <small>October 11th, 2015 | 2 Comments</small>
+        <div class="card-text">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate voluptatibus ipsa, doloremque, repellendus eveniet ipsum sapiente nam illum officia, voluptates deserunt et obcaecati ullam similique? Explicabo eos tenetur blanditiis maxime?</p>
+        </div>
+      </div>
+      <!--/CARD-->
+    </div>
+    <!--/CARD CONTAINER-->
+
+
   </div>
 </template>
 
