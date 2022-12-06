@@ -26,7 +26,38 @@ export default {
     <hr>
 
     <div class="card-container">
-      <img src="">
+      <!--CARD-->
+      <div class="card">
+        <img src="../img/post_feat_img_25-320x202.jpg">
+        <strong>Morbi vitae dui euismod vulputate sollicitudin</strong>
+        <small>October 11th, 2015 | 2 Comments</small>
+        <div class="card-text">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate voluptatibus ipsa, doloremque, repellendus eveniet ipsum sapiente nam illum officia, voluptates deserunt et obcaecati ullam similique? Explicabo eos tenetur blanditiis maxime?</p>
+        </div>
+      </div>
+      <!--/CARD-->
+
+      <!--CARD-->
+      <div class="card">
+        <img src="../img/post_feat_img_24-320x202.jpg">
+        <strong>Morbi vitae dui euismod vulputate sollicitudin</strong>
+        <small>October 11th, 2015 | 2 Comments</small>
+        <div class="card-text">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate voluptatibus ipsa, doloremque, repellendus eveniet ipsum sapiente nam illum officia, voluptates deserunt et obcaecati ullam similique? Explicabo eos tenetur blanditiis maxime?</p>
+        </div>
+      </div>
+      <!--/CARD-->
+
+      <!--CARD-->
+      <div class="card">
+        <img src="../img/post_feat_img_23-320x202.jpg">
+        <strong>Morbi vitae dui euismod vulputate sollicitudin</strong>
+        <small>October 11th, 2015 | 2 Comments</small>
+        <div class="card-text">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate voluptatibus ipsa, doloremque, repellendus eveniet ipsum sapiente nam illum officia, voluptates deserunt et obcaecati ullam similique? Explicabo eos tenetur blanditiis maxime?</p>
+        </div>
+      </div>
+      <!--/CARD-->
     </div>
   </div>
 </template>
@@ -58,5 +89,28 @@ hr{
   width: 50px;
   color: orange;
   margin: auto;
+}
+
+.card-container{
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+strong{
+  display: block;
+
+}
+
+img{
+  display: block;
+}
+
+.card{
+  padding: 15px;
+}
+.card-text{
+  width: 300px;
+  text-align: left;
 }
 </style>
