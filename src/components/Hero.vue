@@ -45,6 +45,7 @@ button{
     border: none;
     color: white;
     padding: 10px;
-    margin-bottom: 330px;
+    margin-bottom: 325px;
 }
+
 </style>
