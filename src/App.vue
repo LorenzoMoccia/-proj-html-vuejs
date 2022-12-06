@@ -6,12 +6,36 @@ export default {
   components: {
     AppHeader,
     AppMain
+  },
+  data() {
+    return {
+      links: [
+        {
+            text: "Link"
+        },
+        {
+            text: "Link"
+        },
+        {
+            text: "Link"
+        },
+        {
+            text: "Link"
+        },
+        {
+            text: "Link"
+        },
+        {
+            text: "Link"
+        },
+      ],
+    }
   }
 }
 </script>
 
 <template>
-    <AppHeader/>
+    <AppHeader :links="links"/>
     <AppMain/>
 </template>
 

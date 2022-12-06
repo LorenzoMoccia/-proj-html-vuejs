@@ -24,6 +24,10 @@ export default {
     <p>PHASELLUS EGET METUS</p>
     <h1>All the latest news</h1>
     <hr>
+
+    <div class="card-container">
+      <img src="">
+    </div>
   </div>
 </template>
 

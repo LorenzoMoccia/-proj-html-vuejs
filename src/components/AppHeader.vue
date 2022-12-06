@@ -1,28 +1,7 @@
 <script>
 export default {
-  data() {
-    return {
-      links: [
-        {
-            text: "Link"
-        },
-        {
-            text: "Link"
-        },
-        {
-            text: "Link"
-        },
-        {
-            text: "Link"
-        },
-        {
-            text: "Link"
-        },
-        {
-            text: "Link"
-        },
-      ],
-    }
+  props: {
+    links: Array
   }
 }
 </script>
@@ -31,6 +10,7 @@ export default {
   <div class="header">
     <div class="logo-container">
       <img src="../img/logo.png">
+      <i class="fa-solid fa-house"></i>
     </div>
 
     <div class="list-container">
