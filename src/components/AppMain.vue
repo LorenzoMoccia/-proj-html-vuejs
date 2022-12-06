@@ -112,6 +112,7 @@ export default {
 
     <!--TUTORIAL & GUIDES CONTAINER-->
     <div class="tutorial-container">
+      <!--REVIEWED PRODUCT-->
       <div class="reviewed-product">
         <div class="reviewed-product-text">
           <strong>REVIEWED PRODUCT</strong>
@@ -120,6 +121,42 @@ export default {
           <button>READ MORE ></button>
         </div>
       </div>
+      <!--/REVIEWED PRODUCT-->
+
+      <div class="tutorial-guides">
+        <h2>Tutorials & Guides</h2>
+        <hr>
+        <!--SMALL CARD-->
+        <div class="small-card">
+          <img src="../img/post_feat_img_23-147x118.jpg" alt="">
+          <div class="tutorial-text-container">
+            <strong>Donec ornare pretium<br> eget scelisque justo</strong>
+            <small>October 11th, 2015 | 2 Comments</small>
+          </div>
+        </div>
+        <!--/SMALL CARD-->
+
+        <!--SMALL CARD-->
+        <div class="small-card">
+          <img src="../img/post_feat_img_23-147x118.jpg" alt="">
+          <div class="tutorial-text-container">
+            <strong>Donec ornare pretium<br> eget scelisque justo</strong>
+            <small>October 11th, 2015 | 2 Comments</small>
+          </div>
+        </div>
+        <!--/SMALL CARD-->
+
+        <!--SMALL CARD-->
+        <div class="small-card">
+          <img src="../img/post_feat_img_23-147x118.jpg" alt="">
+          <div class="tutorial-text-container">
+            <strong>Donec ornare pretium<br> eget scelisque justo</strong>
+            <small>October 11th, 2015 | 2 Comments</small>
+          </div>
+        </div>
+        <!--/SMALL CARD-->
+      </div>
+
     </div>
     <!--/TUTORIAL & GUIDES CONTAINER-->
 
@@ -165,6 +202,7 @@ strong{
   display: block;
 }
 
+
 img{
   display: block;
 }
@@ -204,18 +242,25 @@ button{
 .tutorial-container{
   display: flex;
   justify-content: center;
+  margin-top: 50px;
 }
 .reviewed-product{
   background: url('../img/featured_article_2_bg.jpg');
   background-size: contain;
   width: 35%;
-  height: 350px;
+  height: 414px;
 }
 
 .reviewed-product-text{
   color: white;
   text-align: left;
   padding-top: 70px;
+  padding-left: 30px;
+}
+
+.small-card{
+  display: flex;
+  padding-top: 10px;
   padding-left: 30px;
 }
 </style>
