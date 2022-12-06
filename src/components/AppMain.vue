@@ -110,6 +110,18 @@ export default {
     </div>
     <!--/CARD CONTAINER-->
 
+    <!--TUTORIAL & GUIDES CONTAINER-->
+    <div class="tutorial-container">
+      <div class="reviewed-product">
+        <div class="reviewed-product-text">
+          <strong>REVIEWED PRODUCT</strong>
+          <h2>Mauris viverra atisan ipsum eget felis prims efficitur varius</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, ullam commodi? Corrupti accusamus quam quaerat, voluptas cupiditate assumenda fugit veniam quidem iusto, eveniet veritatis, repellendus illo minus tenetur! Dolor, itaque?</p>
+          <button>READ MORE ></button>
+        </div>
+      </div>
+    </div>
+    <!--/TUTORIAL & GUIDES CONTAINER-->
 
   </div>
 </template>
@@ -167,6 +179,7 @@ img{
 
 .featured-article-container{
   background: url('../img/featured_article_1_bg.jpg');
+  background-size: cover;
   width: 55%;
   height: 500px;
   margin: auto;
@@ -186,5 +199,23 @@ button{
   border: none;
   color: white;
   margin-top: 40px;
+}
+
+.tutorial-container{
+  display: flex;
+  justify-content: center;
+}
+.reviewed-product{
+  background: url('../img/featured_article_2_bg.jpg');
+  background-size: contain;
+  width: 35%;
+  height: 350px;
+}
+
+.reviewed-product-text{
+  color: white;
+  text-align: left;
+  padding-top: 70px;
+  padding-left: 30px;
 }
 </style>
