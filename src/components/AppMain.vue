@@ -160,6 +160,106 @@ export default {
     </div>
     <!--/TUTORIAL & GUIDES CONTAINER-->
 
+    <!--BLACK ROW-->
+    <div class="black-row">
+      <h5>READ OUR BLOG</h5>
+    </div>
+    <!--/BLACK ROW-->
+
+    <p>PHASELLUS EGET METUS</p>
+    <h1>Forum Sections</h1>
+    <hr>
+    <!--SECTION CONTAINER-->
+    <div class="forum-sections-container">
+      <!--FIRST ROW-->
+      <div class="row">
+        <!--SECTION CARD-->
+        <div class="section-card">
+          <div class="circle">
+
+          </div>
+        </div>
+        <!--/SECTION CARD-->
+
+        <!--SECTION CARD-->
+        <div class="section-card">
+          <div class="circle">
+
+          </div>
+        </div>
+        <!--/SECTION CARD-->
+
+        <!--SECTION CARD-->
+        <div class="section-card">
+          <div class="circle">
+
+          </div>
+        </div>
+        <!--/SECTION CARD-->
+
+        <!--SECTION CARD-->
+        <div class="section-card">
+          <div class="circle">
+
+          </div>
+        </div>
+        <!--/SECTION CARD-->
+      </div>
+      <!--/FIRST ROW-->
+
+      <!--SECOND ROW-->
+      <div class="row">
+        <!--SECTION CARD-->
+        <div class="section-card">
+          <div class="circle">
+
+          </div>
+        </div>
+        <!--/SECTION CARD-->
+
+        <!--SECTION CARD-->
+        <div class="section-card">
+          <div class="circle">
+
+          </div>
+        </div>
+        <!--/SECTION CARD-->
+
+        <!--SECTION CARD-->
+        <div class="section-card">
+          <div class="circle">
+
+          </div>
+        </div>
+        <!--/SECTION CARD-->
+
+        <!--SECTION CARD-->
+        <div class="section-card">
+          <div class="circle">
+
+          </div>
+        </div>
+        <!--/SECTION CARD-->
+      </div>
+      <!--/SECOND ROW-->
+    </div>
+    <!--/SECTION CONTAINER-->
+
+    <!--BLACK ROW-->
+    <div class="black-row">
+      <h5>GO TO OUR FORUM</h5>
+    </div>
+    <!--/BLACK ROW-->
+
+    <!--JOIN TO OUR COMMUNITY-->
+    <div class="community-container">
+      <div class="community-text-container">
+        <h1 class="community-text">Hey! Join to our Community</h1>
+        <p class="community-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo, totam sed! Quae dignissimos maxime blanditiis repellat sapiente quos deserunt praesentium magnam, neque recusandae ex possimus aspernatur fuga, atque modi similique?</p>
+        <button class="signup-btn">SIGN UP</button>
+      </div>
+    </div>
+    <!--/JOIN TO OUR COMMUNITY-->
   </div>
 </template>
 
@@ -262,5 +362,51 @@ button{
   display: flex;
   padding-top: 10px;
   padding-left: 30px;
+}
+
+.black-row{
+  color: white;
+  background-color: black;
+  padding: 50px;
+  margin-top: 100px;
+}
+
+.section-card{
+  width: 200px;
+  height: 200px;
+  border: 1px dashed red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 50px;
+}
+
+.circle{
+  width: 85px;
+  height: 85px;
+  border: 1px dashed black;
+  border-radius: 50%;
+}
+
+.row{
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+}
+
+.community-container{
+  background: url('../img/join_now_cta_bg.jpg');
+  height: 500px;
+}
+.community-text{
+  color: white;
+}
+
+.signup-btn{
+  background-color: #26a9bd;
+}
+
+.community-text-container{
+  padding-top: 150px;
 }
 </style>
