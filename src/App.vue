@@ -1,18 +1,38 @@
 <script>
 import AppHeader from './components/AppHeader.vue'
 import AppMain from './components/AppMain.vue'
+import AppFooter from './components/AppFooter.vue'
 
 export default {
   components: {
     AppHeader,
-    AppMain
+    AppMain,
+    AppFooter
   },
   data() {
     return {
       links: [
         {
-            text: "Link"
+            text: "Home"
         },
+        {
+            text: "Apple"
+        },
+        {
+            text: "Microsoft"
+        },
+        {
+            text: "Android"
+        },
+        {
+            text: "Forums"
+        },
+        {
+            text: "Contact us"
+        },
+      ],
+
+      flinks: [
         {
             text: "Link"
         },
@@ -25,9 +45,7 @@ export default {
         {
             text: "Link"
         },
-        {
-            text: "Link"
-        },
+        
       ],
     }
   }
@@ -37,6 +55,7 @@ export default {
 <template>
     <AppHeader :links="links"/>
     <AppMain/>
+    <AppFooter :flinks="flinks"/>
 </template>
 
 <style scoped>

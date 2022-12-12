@@ -46,4 +46,15 @@ li{
   margin-left: 100px !important;
   color: white;
 }
+
+button{
+  background-color: black;
+  color: white;
+  border: none;
+  padding: 5px;
+}
+
+.list-container{
+  margin-top: 5px;
+}
 </style>

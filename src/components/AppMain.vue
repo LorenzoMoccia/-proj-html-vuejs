@@ -166,78 +166,87 @@ export default {
     </div>
     <!--/BLACK ROW-->
 
-    <p>PHASELLUS EGET METUS</p>
-    <h1>Forum Sections</h1>
-    <hr>
+    
     <!--SECTION CONTAINER-->
     <div class="forum-sections-container">
+      <p>PHASELLUS EGET METUS</p>
+      <h1>Forum Sections</h1>
+      <hr>
       <!--FIRST ROW-->
       <div class="row">
         <!--SECTION CARD-->
         <div class="section-card">
           <div class="circle">
-
+            <i class="fa-sharp fa-solid fa-newspaper fa-3x"></i>
           </div>
+          <h3 class="section-title">News & Community</h3>
         </div>
         <!--/SECTION CARD-->
 
         <!--SECTION CARD-->
         <div class="section-card">
           <div class="circle">
-
+            <i class="fa-brands fa-apple fa-3x"></i>
           </div>
+          <h3 class="section-title">Apple Forum</h3>
         </div>
         <!--/SECTION CARD-->
 
         <!--SECTION CARD-->
         <div class="section-card">
           <div class="circle">
-
+            <i class="fa-brands fa-windows fa-3x"></i>
           </div>
+          <h3 class="section-title">Microsoft Forum</h3>
         </div>
         <!--/SECTION CARD-->
 
         <!--SECTION CARD-->
         <div class="section-card">
           <div class="circle">
-
+            <i class="fa-brands fa-android fa-3x"></i>
           </div>
+          <h3 class="section-title">Android Forum</h3>
         </div>
         <!--/SECTION CARD-->
       </div>
       <!--/FIRST ROW-->
 
       <!--SECOND ROW-->
-      <div class="row">
+      <div class="row row2">
         <!--SECTION CARD-->
         <div class="section-card">
           <div class="circle">
-
+            <i class="fa-solid fa-mug-saucer fa-3x"></i>
           </div>
+          <h3 class="section-title">General Discussion</h3>
         </div>
         <!--/SECTION CARD-->
 
         <!--SECTION CARD-->
         <div class="section-card">
           <div class="circle">
-
+            <i class="fa-solid fa-code fa-3x"></i>
           </div>
+          <h3 class="section-title">App & Software</h3>
         </div>
         <!--/SECTION CARD-->
 
         <!--SECTION CARD-->
         <div class="section-card">
           <div class="circle">
-
+            <i class="fa-solid fa-laptop fa-3x"></i>
           </div>
+          <h3 class="section-title">Gadget & Stuff</h3>
         </div>
         <!--/SECTION CARD-->
 
         <!--SECTION CARD-->
         <div class="section-card">
           <div class="circle">
-
+            <i class="fa-solid fa-wrench fa-3x"></i>
           </div>
+          <h3 class="section-title">Tutorial & Guides</h3>
         </div>
         <!--/SECTION CARD-->
       </div>
@@ -260,6 +269,16 @@ export default {
       </div>
     </div>
     <!--/JOIN TO OUR COMMUNITY-->
+
+    <!--NEWSLETTER-->
+    <div class="newsletter-container">
+      <h2 class="newsletter-text">Subscribe to our Newsletter</h2>
+      <div class="newsletter">
+        <input type="text" placeholder="Insert your email" class="newsletter-input">
+        <button class="send-btn">SEND</button>
+      </div>
+    </div>
+    <!--/NEWSLETTER-->
   </div>
 </template>
 
@@ -284,6 +303,7 @@ h4{
 
 .news-container{
   text-align: center;
+  padding-top: 50px;
 }
 
 hr{
@@ -343,6 +363,7 @@ button{
   display: flex;
   justify-content: center;
   margin-top: 50px;
+  padding-bottom: 70px;
 }
 .reviewed-product{
   background: url('../img/featured_article_2_bg.jpg');
@@ -368,32 +389,47 @@ button{
   color: white;
   background-color: black;
   padding: 50px;
-  margin-top: 100px;
 }
 
+.forum-sections-container{
+  background-color: #f2f2f2;
+  padding-top: 50px;
+}
 .section-card{
   width: 200px;
   height: 200px;
-  border: 1px dashed red;
+  border-top: 4px solid #27afc3;
   display: flex;
   justify-content: center;
   align-items: center;
   margin-left: 50px;
+  background-color: white;
+  flex-direction: column;
 }
 
 .circle{
   width: 85px;
   height: 85px;
-  border: 1px dashed black;
   border-radius: 50%;
+  background-color: #ff8d61;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 5px;
 }
 
+i{
+  color: white;
+}
 .row{
   display: flex;
   justify-content: center;
   margin-top: 100px;
 }
 
+.row2{
+  padding-bottom: 200px;
+}
 .community-container{
   background: url('../img/join_now_cta_bg.jpg');
   height: 500px;
@@ -404,9 +440,30 @@ button{
 
 .signup-btn{
   background-color: #26a9bd;
+  padding: 10px;
 }
 
 .community-text-container{
-  padding-top: 150px;
+  padding-top: 200px;
 }
+
+.newsletter-container{
+  background-color: #f2f2f2;
+}
+
+.newsletter-input{
+  margin-right: 50px;
+  width: 300px;
+  margin-bottom: 100px;
+}
+
+.send-btn{
+  width: 100px;
+}
+
+.newsletter-text{
+  padding-top: 80px;
+}
+
+
 </style>
